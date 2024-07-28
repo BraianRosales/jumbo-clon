@@ -1,0 +1,6 @@
+@use "../scss/util" as u;
+
+
+h2 {
+    color: u.$gray-titles;
+}
