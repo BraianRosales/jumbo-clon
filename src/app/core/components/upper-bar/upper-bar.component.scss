@@ -1,0 +1,28 @@
+@use '../../../../scss/util' as u;
+
+.upperBar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: u.$color-primary;
+
+    &-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: u.$font-size-small;
+        font-weight: u.$font-weight;
+
+        p {
+            color: white;
+            text-shadow: 1px 0px 1px black;
+
+            span {
+                font-size: u.$font-size-very-small;
+                font-weight: 100;
+            }
+        }
+    }
+
+}

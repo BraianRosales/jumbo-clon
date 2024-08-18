@@ -1,0 +1,14 @@
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Asegura que la imagen no sobrepase el contenedor */
+
+    &-image {
+        width: 100%;
+        height: auto; /* Mantiene la proporción de la imagen */
+        object-fit: contain; /* La imagen se ajustará al contenedor sin perder su proporción */
+    }
+}
+

@@ -1,0 +1,13 @@
+@use '../../../../scss/util' as u;
+
+.circleWithNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 21px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: u.$font-size-very-small;
+}

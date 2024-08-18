@@ -1,6 +1,23 @@
 @use "../scss/util" as u;
 
+.jumboClon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-h2 {
-    color: u.$gray-titles;
+    &-banner {
+        width: 80%;
+        height: 52px;
+    }
+
+    &-upperBar {
+        width: 100%;
+        height: 40px;
+    }
+
+    &-header {
+        width: 100%;
+        height: 150px;
+    }
 }
